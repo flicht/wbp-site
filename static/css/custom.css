@@ -1,0 +1,130 @@
+/* @import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400|Staatliches); */
+
+/* .h1 {
+    font-family: Staatliches !important;
+    font-size: 340px !important;
+  } */
+
+#hero h1 {
+    font-family: Staatliches !important;
+    font-size: 60px !important;
+    padding-bottom: 0px !important;
+    
+  }
+
+#hero p{
+  margin-top: 10px !important;
+  padding-top: 10px !important;
+}
+
+#hero div{
+  margin-top: 10px !important;
+  padding-bottom: 4px !important;
+}
+
+#hero {
+  margin-top: 10px !important;
+  padding-bottom: 20px !important;
+  padding-top: 0px !important;
+}
+
+
+#main-page-main-title:hover {
+    color: white;
+    transition: 0.8s;
+
+}
+
+#top-brand a {
+    font-family: Staatliches !important;
+    font-size: 25px !important;
+    color: #222;
+    text-decoration: none;
+    
+}
+
+/* #nav-toggle-brand a::after {
+    display:none 
+} */
+
+#nav-toggle-brand a {
+    font-family: Staatliches !important;
+    font-size: 22px !important;
+    color: #222 !important;
+}
+
+#nav-toggle-brand:after {
+    content: '' !important;
+    width: 0px !important;
+    height: 2px !important;
+    display: block !important;
+    background: #222 !important;
+    transition: 200ms !important;
+}
+
+/* #nav-toggle-brand a:hover {
+    text-decoration: underline !important;
+} */
+
+#nav-toggle-brand:hover:after {
+    width: 100% !important;
+  }
+
+/* #nav-toggle:hover {
+    content: '' !important;
+  } */
+
+
+  
+#top-brand:after {
+    content: '' !important;
+    width: 0px !important;
+    height: 3px !important;
+    display: block !important;
+    background: #222 !important;
+    transition: 300ms !important;
+  }
+  
+#top-brand:hover:after {
+    width: 100% !important;
+  } 
+
+
+/* #top-brand a:hover {
+    text-decoration: underline !important;
+    transition: 400ms !important;
+  } */
+
+#hero p:before {
+    background: #222;
+}
+
+#hero p {
+    font-weight: 1000;
+    font-style: italic;
+
+}
+
+p { 
+    font-family: IBM Plex Mono;
+}
+
+/* #components div {
+  background-image: 'img/unsplash.jpg' !important;
+} */
+
+/* .kube-menu::after {
+  content: "\e905"
+  /* color:red !important; 
+ } */
+
+.kube-menu {
+   font-size: 22px;
+   color: #222 !important;
+}
+
+.kube-menu:hover {
+   font-size: 22px;
+   color: grey !important;
+   transition: 100ms
+}

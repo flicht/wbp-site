@@ -1,0 +1,31 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "White Blank Page"
+description = "We Suggest. You Donate."
+theme = "kube"
+# description = "White Blank Page is a Directory of charities."
+Paginate = 4
+[Params]
+  subtitle = "WBP." # navbar toggle title
+  RSSLink = "/index.xml"
+  author = "White Blank Page" # add your company name
+  github = "" # add your github profile name
+  twitter = "" # add your twitter profile
+  email = "myemail@myaddress.xxx"
+
+[[menu.main]]
+    name = "Charities"
+    weight = -100
+    url = "/charities/"
+[[menu.main]]
+    name = "About"
+    weight = -100
+    url = "/about/"
+[[menu.main]]
+    name = "Donate"
+    weight = -100
+    url = "/donate/"
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "/blog/"
